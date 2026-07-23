@@ -71,7 +71,7 @@ Contains:
 - List of violations
 - Total amount
 
-### QuRadar
+### Radar
 
 Responsible for:
 - Receiving observations
