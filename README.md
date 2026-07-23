@@ -86,3 +86,9 @@ It does not contain the implementation details of individual rules.
 
 
 ![Class Diagram](./images/Class%20Diagram.png)
+
+
+## Test and install project
+- Clone the Repository
+- npm install
+- run project : npm start
