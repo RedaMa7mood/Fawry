@@ -88,7 +88,42 @@ It does not contain the implementation details of individual rules.
 ![Class Diagram](./images/Class%20Diagram.png)
 
 
-## Test and install project
-- Clone the Repository
-- npm install
-- run project : npm start
+## Getting Started
+
+
+
+### 1. Clone the Repository
+
+
+
+```bash
+
+git clone <https://github.com/RedaMa7mood/Fawry/tree/main>
+
+cd <quantam-radar> 
+
+```
+
+
+
+### 2. Install Dependencies
+
+
+
+```bash
+
+npm install
+
+```
+
+
+
+### 3. Run the Project
+
+
+
+```bash
+
+npm start
+
+```
