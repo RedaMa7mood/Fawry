@@ -20,5 +20,6 @@ const observations=[
 for(const observation of observations){
     radar.processObservation(observation);
 }
-console.log(radar.getAllFines());
+radar.getAllFines();
+
 console.log(radar.getAllViolationCounts());

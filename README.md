@@ -23,14 +23,14 @@ If violations are found, a fine is created containing:
 
 The main design challenge is to make the system extensible.
 
-New traffic rules should be added without modifying the `QuRadar` class.
+New traffic rules should be added without modifying the `Radar` class.
 
 Therefore, the radar should not contain hardcoded conditions for every rule.
 Instead, each rule is modeled as an independent object behind a common abstraction.
 
 For example, adding a new `BusSpeedRule` should only require creating
 a new rule implementation and registering it with the radar.
-The existing `QuRadar` implementation should remain unchanged.
+The existing `Radar` implementation should remain unchanged.
 
 
 
@@ -86,3 +86,10 @@ It does not contain the implementation details of individual rules.
 
 
 ![Class Diagram](./images/Class%20Diagram.png)
+
+
+
+
+## Output
+
+![Output](./images/Output.png)

@@ -32,12 +32,16 @@ export default class Radar{
     }
 
     getAllFines(){
-        return this.fines.map(fine=>({
-            plateNumber:fine.plateNumber,
-            totalAmount:fine.getTotalAmount()
-            
+         this.fines.forEach(fine=>{
+        console.log(`Traffic for car ${fine.plateNumber}`)
+        console.log(`Total amount: ${fine.getTotalAmount()} EGP`)
+        console.log(`Violations:`)
+        fine.violations.forEach(violation=>{
+            console.log(` - ${violation.ruleName}: ${violation.fee} EGP`)
         })
-    )}
+        console.log('====================================')
+        })
+    }
 
 
     getAllViolationCounts(){
