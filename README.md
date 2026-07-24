@@ -71,7 +71,7 @@ Contains:
 - List of violations
 - Total amount
 
-### QuRadar
+### Radar
 
 Responsible for:
 - Receiving observations
@@ -93,3 +93,44 @@ It does not contain the implementation details of individual rules.
 ## Output
 
 ![Output](./images/Output.png)
+
+
+## Getting Started
+
+
+
+### 1. Clone the Repository
+
+
+
+```bash
+
+git clone <https://github.com/RedaMa7mood/Fawry/tree/main>
+
+cd <quantam-radar> 
+
+```
+
+
+
+### 2. Install Dependencies
+
+
+
+```bash
+
+npm install
+
+```
+
+
+
+### 3. Run the Project
+
+
+
+```bash
+
+npm start
+
+```
